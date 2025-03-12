@@ -9,10 +9,6 @@ categories = ["software"]
 repo_path = "justint/papaya"
 +++
 
-This is my first software project!
-
-<!-- more -->
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin est augue, pellentesque sit amet nisi ut, viverra vestibulum purus. Quisque ac varius elit. 
 
 Praesent vitae pretium lacus, at placerat velit. Nulla feugiat quam eget quam tempus, id vulputate nulla suscipit. Vestibulum porta mollis molestie. In mollis diam et ante varius imperdiet et a elit. Mauris sodales quis nisi nec fringilla. 

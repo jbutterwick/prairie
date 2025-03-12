@@ -1,18 +1,20 @@
 @use "syntax-theme-dark";
 
 @mixin theme($theme: dark) {
-    --background-color: rgb(24, 24, 24);
-    --header-background-color: rgb(28, 28, 28);
-    --text-color: rgb(217, 217, 217);
-    --text-accent-color: rgb(130, 130, 130);
-    --border-color: rgb(66, 66, 66);
-    --link-color: rgb(65, 136, 205);
-    --link-hover-color: rgb(29, 163, 136);
-    --link-hover-line-color: rgb(0, 120, 132);
+    --background-color: rgba(19.69%,24.67%,27.52%,1.000);
+    --header-background-color: rgba(14.97%,22.43%,25.57%,1.000);
+    --text-color: rgba(78.92%,80.56%,84.46%,1.000);
+    --text-accent-color: rgba(50.86%,63.72%,51.71%,1.000);
+    --border-color: rgba(14.97%,22.43%,25.57%,1.000);
+    --link-color: rgba(58.94%,57.45%,76.26%,1.000);
+    --link-hover-color: rgba(50.86%,63.72%,51.71%,1.000);
+    --link-hover-line-color: rgba(54.20%,80.09%,52.47%,1.000);
     --icon-hover-color: var(--link-hover-color);
     --icon-color: var(--text-color);
-    --code-background: rgb(32, 32, 32);
+    --code-background: rgba(14.97%,22.43%,25.57%,1.000);
     --table-header-background-color: var(--header-background-color);
+    --mark-bg-color: rgba(65.79%,58.53%,39.42%,1.000);
+    --mark-text-color: rgba(87.45%,88.62%,92.78%,1.000);
 }
 
 :root {

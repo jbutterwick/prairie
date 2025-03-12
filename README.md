@@ -1,10 +1,10 @@
-# Papaya
+# prairie
 
-A clean [Zola](https://getzola.org) theme for blogging and projects, forked from [Anpu](https://github.com/zbrox/anpu-zola-theme).
+A clean [Zola](https://getzola.org) theme for blogging and projects, forked from [Papaya](https://github.com/justint/papaya).
 
 ## Preview
 
-**Demo site**: [https://justintennant.me/papaya/](https://justintennant.me/papaya/)
+**Demo site**: [https://github.io/jbutterwick/prairie](https://justintennant.me/papaya/)
 
 ![index light/dark](https://raw.githubusercontent.com/justint/papaya/main/pics/blendedindex.png)
 
@@ -41,16 +41,16 @@ A clean [Zola](https://getzola.org) theme for blogging and projects, forked from
 1. Clone this repository to your `themes` folder:
     
     ```bash
-    git clone https://github.com/justint/papaya.git themes/papaya
+    git clone https://github.com/jbutterwick/prairie.git themes/prairie
     ```
 
-2. Set your theme setting in `config.toml` to `papaya`:
+2. Set your theme setting in `config.toml` to `prairie`:
 
     ```toml
-    theme = "papaya"
+    theme = "prairie"
     ```
 
-3. Copy the following sections and keys (and their contents/values) from papaya's [`config.toml`](https://github.com/justint/papaya/blob/main/config.toml) and paste them into your site's `config.toml`:
+3. Copy the following sections and keys (and their contents/values) from prairie's [`config.toml`](https://github.com/justint/papaya/blob/main/config.toml) and paste them into your site's `config.toml`:
 
    - `[languages]`
      - `[languages.en]`
@@ -84,7 +84,7 @@ A clean [Zola](https://getzola.org) theme for blogging and projects, forked from
 
 ## Customization
 
-Here are the customizable features of Papaya: 
+Here are the customizable features of prairie: 
 
 - [Project categories](#project-categories)
 - [Light/dark mode](#lightdark-mode)
@@ -237,7 +237,7 @@ A `menu_item` can be one of two things:
 
 A section is created whenever a directory (or subdirectory) in the content section contains an `_index.md` file; see the [Zola docs on sections](https://www.getzola.org/documentation/content/section/). 
 
-Papaya has two sections by default: `projects` and `blog`. You can add additional sections or change section names.  For example, you can add a section called _Diary_. In order to add this section, you need to:
+prairie has two sections by default: `projects` and `blog`. You can add additional sections or change section names.  For example, you can add a section called _Diary_. In order to add this section, you need to:
 
 1. Create a directory called `diary` in `content/`.
 
@@ -558,6 +558,6 @@ You can also force the image width to match the document's width by setting `ext
 
 ![Image fixed to document width](pics/img_-1.png)
 
-## Why "Papaya"?
+## Why "prairie"?
 
-🦎
+

@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://justintennant.me/papaya"
+base_url = "https://github.com/jbutterwick/prairie.html"
 
 default_language = "en"
 
@@ -9,9 +9,6 @@ compile_sass = true
 # When set to "true", a search index is built from the pages and section
 # content for `default_language`.
 build_search_index = false
-
-# When set to "true", a feed is automatically generated.
-generate_feed = true
 
 [markdown]
 # When set to "true", all code blocks are highlighted.
@@ -28,10 +25,8 @@ highlight_themes_css = [
 [languages]
 
 [languages.en]
-title = "Papaya"
+title = "prairie"
 description = "A clean Zola theme for blogging and projects"
-generate_feed = true
-feed_filename = "atom.xml"
 # The taxonomies to be rendered for the site and their configuration of the default languages
 taxonomies = [
     { name = "tags", feed = true, lang = "en" },
@@ -60,39 +55,6 @@ next_page = "To older posts"
 # Customize your post date format. See: https://tera.netlify.app/docs/#date
 date_format = "%B %e, %Y"
 
-[languages.zh]
-title = "帕帕雅"
-description = "一个清新的 Zola 博客与项目模板"
-base_url = "https://justintennant.me/papaya/zh"
-generate_feed = true
-# The taxonomies to be rendered for the site and their configuration of the default languages
-taxonomies = [
-    { name = "tags", feed = true, lang = "zh" },
-    { name = "categories", feed = true, lang = "zh" },
-]
-
-[languages.zh.translations]
-projects = "项目"
-blog = "博文"
-about = "关于"
-recent_projects = "近期项目"
-more_projects = "更多项目"
-recent_blog_posts = "近期博文"
-more_blog_posts = "更多博文"
-tag = "标签"
-tags = "所有标签"
-to_all_tags = "所有标签"
-category = "类别"
-categories = "所有类别"
-to_all_categories = "所有类别"
-view_by = "查看方式"
-other = "其他"
-minute = "分钟"
-prev_page = "上一页"
-next_page = "下一页"
-# Customize your post date format. See: https://tera.netlify.app/docs/#date
-date_format = "%Y 年 %m 月 %d 日"
-
 [extra]
 # Development environment. Used by the page macros to load remote content only when in "prod" mode
 env = "ZOLA_ENV"
@@ -116,23 +78,16 @@ max_width = 2500
 # Open Graph Protocol objects. See: https://ogp.me/
 [extra.ogp]
 locale = "en_US"
-first_name = "Papaya"
-last_name = "Tiliqua"
-gender = "female"
-username = "tiliquasp"
+first_name = "prairie"
+last_name = "Butterwick"
+gender = "male"
+username = "jbutterwick"
 
 # Footer social links; full options listed in macros/social.html
 [extra.social]
-email = "papaya@tiliqua.sp"
-github = "papaya"
-linkedin = "papayatiliqua"
-twitter = "your-user-name"
-zhihu = "your-user-name"
-weibo = "your-user-name"
-bilibili = "your-user-name"
-other = [
-    { name = "BTC", font_awesome = "fa-brands fa-btc", url = "https://www.bitcoin.com/" }
-]
+email = "jordan@butterwick.tech"
+github = "jbutterwick"
+linkedin = "jbutterwick"
 
 # CDN links
 [extra.cdn]

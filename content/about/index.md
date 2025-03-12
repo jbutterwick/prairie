@@ -4,8 +4,4 @@ render = true
 template = "about.html"
 +++
 
-{{ img(path="@/about/me.jpg", class="bordered", alt="It's me!", caption="It's me!") }}
-
-&nbsp;
-
-Hello, World!
+Prairie is a fork of papaya, another zola theme I found inspiration from. It has a different color scheme, and that's about it.
