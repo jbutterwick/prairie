@@ -6,19 +6,7 @@ A clean [Zola](https://getzola.org) theme for blogging and projects, forked from
 
 **Demo site**: [https://github.io/jbutterwick/prairie](https://github.io/jbutterwick/prairie)
 
-![index light/dark](https://raw.githubusercontent.com/justint/papaya/main/pics/blendedindex.png)
-
-<p align="center">
-  <img alt="Light Projects" src="https://raw.githubusercontent.com/justint/papaya/main/pics/projects.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark Projects" src="https://raw.githubusercontent.com/justint/papaya/main/pics/projects_dark.png" width="45%">
-</p>
-
-<p align="center">
-  <img alt="Light Project" src="https://raw.githubusercontent.com/justint/papaya/main/pics/project.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark Project" src="https://raw.githubusercontent.com/justint/papaya/main/pics/project_dark.png" width="45%">
-</p>
+![index light/dark](pics/featured_image.png)
 
 ## Features
 
@@ -200,7 +188,7 @@ To write a multilingual site, follow the steps below (English and Chinese in thi
 
    For example: add `content/blog/what-is-zola.zh.md` and `content/blog/blog-with-image/index.zh.md`.
 
-6. Add a `content/categories.zh.json` file. For example:
+5. Add a `content/categories.zh.json` file. For example:
 
     ```json
     {
@@ -501,63 +489,4 @@ The benefits of using this shortcode over regular Markdown/HTML image embedding 
 
 - Images are automatically resized for best performance, using Zola's [image processing functions](https://www.getzola.org/documentation/content/image-processing/)
 - Images & captions are ✨pre-styled✨ for you
-- Images can have their width extended past the document's width (see: [Extended width images](#extended-width-images))
 - Less HTML/CSS boilerplate to write
-
-
-### Extended width images
-
-Images embedded into pages using the `img` shortcode can be configured to extend past their document width. This is especially nice for displaying wide/landscape images at higher resolutions.
-
-By default, images embedded with the `img` shortcode will be inserted as a `figure` with default margins:
-
-```js
-{{ img(path="image.jpg", 
-       alt="A very cute leopard gecko.", 
-       caption="A very cute leopard gecko. Default sizing.") }}
-```
-
-![Default sized image](pics/img_default.png)
-
-With the `extended_width_pct` argument, we can specify a percentage of how much the image should expand outside its default figure width, up to your maximum configured image width (`config.extra.images.max_width`, 2500px default).
-
-Here's an example with `extended_width_pct=0.1`:
-
-```js
-{{ img(path="image.jpg", 
-       alt="A very cute leopard gecko.", 
-       caption="A very cute leopard gecko. extended_width_pct=0.1",
-       extended_width_pct=0.1) }}
-```
-
-![Image extended by 0.1](pics/img_0.1.png)
-
-The image is now displayed with a 10% larger width, while maintaining its original aspect ratio.
-
-Here's an even wider example:
-
-```js
-{{ img(path="image.jpg", 
-       alt="A very cute leopard gecko.", 
-       caption="A very cute leopard gecko. extended_width_pct=0.2",
-       extended_width_pct=0.2) }}
-```
-
-![Image extended by 0.2](pics/img_0.2.png)
-
-The images will resize in resolution up to your maximum configured image width, and will display on the webpage up to the maximum width of the viewport.
-
-You can also force the image width to match the document's width by setting `extended_width_pct` to `-1`:
-
-```js
-{{ img(path="image.jpg", 
-       alt="A very cute leopard gecko.", 
-       caption="A very cute leopard gecko. extended_width_pct=-1",
-       extended_width_pct=-1) }}
-```
-
-![Image fixed to document width](pics/img_-1.png)
-
-## Why "prairie"?
-
-
