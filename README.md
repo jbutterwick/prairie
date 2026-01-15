@@ -4,7 +4,7 @@ A clean [Zola](https://getzola.org) theme for blogging and projects, forked from
 
 ## Preview
 
-**Demo site**: [https://github.io/jbutterwick/prairie](https://justintennant.me/papaya/)
+**Demo site**: [https://github.io/jbutterwick/prairie](https://github.io/jbutterwick/prairie)
 
 ![index light/dark](https://raw.githubusercontent.com/justint/papaya/main/pics/blendedindex.png)
 
