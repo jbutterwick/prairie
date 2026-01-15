@@ -58,7 +58,7 @@
   </a>
   {% endif %}
 
-  {% if config.generate_feed is containing("atom.xml")%}
+  {% if config.generate_feed %}
   <a href="{{ base_url }}/"atom.xml"" aria-label="Open atom xml feed" target="_blank">
     <span class="icon is-large">
       <i class="fas fa-rss fa-lg" aria-hidden="true" title="atom xml feed"></i>
