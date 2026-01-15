@@ -10,14 +10,6 @@ compile_sass = true
 # content for `default_language`.
 build_search_index = false
 
-# The theme to use for code highlighting.
-# See Zola configuration docs for list of allowed values.
-highlight_theme = "css"
-highlight_themes_css = [
-  { theme = "material-dark", filename = "syntax-theme-dark.css" },
-  { theme = "material-light", filename = "syntax-theme-light.css" },
-]
-
 [languages]
 
 [languages.en]
