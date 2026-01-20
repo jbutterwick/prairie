@@ -1,20 +1,20 @@
 name = "prairie"
-description = "A clean Zola theme for blogging and projects"
-license = "MIT"
+description = "a clean zola theme for blogging and projects"
+license = "mit"
 homepage = "https://github.com/jbutterwick/prairie"
-# The minimum version of Zola required
+# the minimum version of zola required
 min_version = "0.16.1"
-# An optional live demo URL
+# an optional live demo url
 demo = ""
 
-# Any variable there can be overriden in the end user `config.toml`
-# You don't need to prefix variables by the theme name but as this will
+# any variable there can be overriden in the end user `config.toml`
+# you don't need to prefix variables by the theme name but as this will
 # be merged with user data, some kind of prefix or nesting is preferable
-# Use snake_casing to be consistent with the rest of Zola
+# use snake_casing to be consistent with the rest of zola
 [extra]
-env = "$ZOLA_ENV"
-papaya_date_format = "%e %B %Y"
-papaya_menu_links = []
+env = "$zola_env"
+prairie_date_format = "%e %b %y"
+prairie_menu_links = []
 
 [extra.images]
 
@@ -22,7 +22,7 @@ papaya_menu_links = []
 
 [extra.ogp]
 
-# The theme author info: you!
+# the theme author info: you!
 [author]
-name = "Jordan Butterwick"
+name = "jordan butterwick"
 homepage = "https://butterwick.tech"

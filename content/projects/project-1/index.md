@@ -6,7 +6,7 @@ date = 2021-08-11
 categories = ["software"]
 
 [extra]
-repo_path = "justint/papaya"
+repo_path = "jbutterwick/prairie"
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin est augue, pellentesque sit amet nisi ut, viverra vestibulum purus. Quisque ac varius elit. 

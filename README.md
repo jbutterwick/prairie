@@ -39,7 +39,7 @@ Uses [Lunaria](https://lunaria.design/) colors for an easy-on-the-eyes reading e
     theme = "prairie"
     ```
 
-3. Copy the following sections and keys (and their contents/values) from prairie's [`config.toml`](https://github.com/justint/papaya/blob/main/config.toml) and paste them into your site's `config.toml`:
+3. Copy the following sections and keys (and their contents/values) from prairie's [`config.toml`](https://github.com/jbutterwick/prairie/blob/main/config.toml) and paste them into your site's `config.toml`:
 
    - `[languages]`
      - `[languages.en]`
@@ -47,7 +47,7 @@ Uses [Lunaria](https://lunaria.design/) colors for an easy-on-the-eyes reading e
    - `[extra.cdn]`
      - `font_awesome`
 
-4. In your `content` directory, add new `blog` and `projects` directories. Copy the `_index.md` file from Papaya's `content/blog` into your `content/blog`, and the `_index.md` and `categories.json` files from Papaya's `content/projects` into your `content/projects`.
+4. In your `content` directory, add new `blog` and `projects` directories. Copy the `_index.md` file from prairie's `content/blog` into your `content/blog`, and the `_index.md` and `categories.json` files from prairie's `content/projects` into your `content/projects`.
  
    Your `content` directory structure should look like this:
    ```
@@ -125,7 +125,7 @@ The example project page above would be grouped into & displayed within the "Sof
 
 ### Light/dark mode
 
-The Papaya theme can be set to `"light"`, `"dark"`, or `"auto"` mode in the `config.toml`.
+The prairie theme can be set to `"light"`, `"dark"`, or `"auto"` mode in the `config.toml`.
 
 In `"auto"`, the light and dark modes are implicitly chosen by the `prefers-color-scheme` CSS media feature. The theme will switch automatically based on the viewer's OS or user agent setting.
 
@@ -151,7 +151,7 @@ To write a multilingual site, follow the steps below (English and Chinese in thi
 
     Under the `[languages.zh]` section you can override default configurations like `title`, `description`, etc.
 
-2. Add translations of all keywords in `[languages.zh.translations]` and `languages.en.translations]` sections (see Papaya's [`config.toml`](config.toml) for a listing of all keywords):
+2. Add translations of all keywords in `[languages.zh.translations]` and `languages.en.translations]` sections (see prairie's [`config.toml`](config.toml) for a listing of all keywords):
 
     ```toml
     [languages]
@@ -400,7 +400,7 @@ Example:
 ```toml
 [extra.ogp]
 locale = "en_US"
-first_name = "Papaya"
+first_name = "prairie"
 last_name = "Tiliqua"
 gender = "female"
 username = "tiliquasp"
@@ -408,7 +408,7 @@ username = "tiliquasp"
 
 ### Utterances
 
-[Utterances](https://utteranc.es/) is a comments widget built on GitHub issues. When enabled, Papaya can display GitHub issues as comments on your blog posts.
+[Utterances](https://utteranc.es/) is a comments widget built on GitHub issues. When enabled, prairie can display GitHub issues as comments on your blog posts.
 
 To enable:
 
@@ -432,10 +432,10 @@ Example:
 
 ```toml
 [extra.social]
-email = "papaya@tiliqua.sp"
-github = "papaya"
-linkedin = "papayatiliqua"
-twitter = "papayathehisser"
+email = "prairie@tiliqua.sp"
+github = "prairie"
+linkedin = "prairietiliqua"
+twitter = "prairiethehisser"
 ```
 
 If you want to include other custom social websites, you can add them to `other`:
@@ -460,7 +460,7 @@ font_awesome = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/
 
 ## Image embedding shortcode
 
-Included with Papaya is a shortcode for embedding images into your posts:
+Included with prairie is a shortcode for embedding images into your posts:
 
 ```
 img(path, alt, caption, class, extended_width_pct, quality)
