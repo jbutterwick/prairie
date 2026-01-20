@@ -1,6 +1,7 @@
 # prairie
 
 A clean [Zola](https://getzola.org) theme for blogging and projects, forked from [Papaya](https://github.com/justint/papaya).
+Uses [Lunaria](https://lunaria.design/) colors for an easy-on-the-eyes reading experience.
 
 ## Preview
 
